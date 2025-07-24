@@ -3,42 +3,47 @@ import { FaSearch } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <div className="flex bg-gray-800 text-white p-5 justify-between font-semibold items-center">
-      <div className="flex gap-10 text-xl items-center">
-        <a href="#">
+    <div className="flex bg-black  text-white p-2 justify-between font-semibold items-center border-2 border-gray-500">
+      <div className="flex gap-10 text- items-center">
+        <a href="#" className="text-2xl">
           <FaMusic />
         </a>
-        <div className="bg-gray-800 p-2  pl-3 rounded-2xl border-white">
-          <input type="text" name="searchbar" placeholder="Search Song" />
-          <button className="pr-3 cursor-pointer">
-            <FaSearch />
-          </button>
+        <div className=" bg-black   pl-3 rounded-2x relative ">
+          <input
+            type="text"
+            name="searchbar"
+            placeholder="Search Song"
+            className="border-2 border-amber-50 rounded-2xl pl-5 w-60"
+          />
         </div>
+        <button className=" cursor-pointe absolute left-70 items-center">
+          <FaSearch />
+        </button>
       </div>
 
-      <div className="flex gap-10">
-        <div className="text-xl ">
+      <div className="flex gap-10 items-center">
+        <div className=" ">
           <ul className=" flex gap-20">
             <a href="">
-              <il className="">premium </il>
+              <il className=" hover:text-amber-200 ">premium </il>
             </a>
             <a href="">
-              <il className="">Support</il>
+              <il className=" hover:text-amber-200 ">Support</il>
             </a>
             <a href="">
-              <il className="">Download</il>
+              <il className=" hover:text-amber-200 ">Download</il>
             </a>
             <a href="">
-              <il className="">Install App</il>
+              <il className=" hover:text-amber-200 ">Install App</il>
             </a>
           </ul>
         </div>
 
-        <div className="flex gap-4 items-center">
-          <button className="bg-white p-2 rounded-2xl text-black border-white ">
+        <div className="flex gap-5 items-center ">
+          <button className="bg-amber-50 p-2 rounded-2xl text-black border-white cursor-pointer ">
             Sign-up
           </button>
-          <button className="bg-white p-2 rounded-2xl text-black border-white ">
+          <button className="bg-amber-50 p-2  rounded-2xl text-black border-white  cursor-pointer">
             Login
           </button>
         </div>
