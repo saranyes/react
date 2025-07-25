@@ -1,15 +1,16 @@
 import { FaHeart } from "react-icons/fa";
+// import { assets } from "../assets/assets";
 
 import React from "react";
 
-function Cards({ Movie }) {
+function Cards({ name, release_date }) {
   return (
-    <div className="container">
-      <h1>Name :</h1>
+    <div className="text-white ">
+      <h1>Name:{name}</h1>
       <button>
         <FaHeart />
       </button>
-      <p>Release Date:</p>
+      <p>Release Date:{release_date}</p>
     </div>
   );
 }

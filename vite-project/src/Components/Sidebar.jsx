@@ -3,7 +3,7 @@ import { FaPlus } from "react-icons/fa6";
 
 const Sidebar = () => {
   return (
-    <div className="bg-black h-screen w-100  text-amber-50 font-semibold">
+    <div className="bg-[#121212] rounded-2xl h-202 w-100  text-amber-50 font-semibold">
       <div className="flex items-center justify-between p-4 pr-8 pl-8 text-2xl">
         <h1 className="">Your Library</h1>
         <label>

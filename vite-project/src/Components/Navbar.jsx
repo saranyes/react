@@ -3,12 +3,12 @@ import { FaSearch } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <div className="flex bg-black  text-white p-2 justify-between font-semibold items-center border-2 border-gray-500">
+    <div className="flex bg-[#121212]  text-white p-2 justify-between font-semibold items-center border-2 border-white ">
       <div className="flex gap-10 text- items-center">
         <a href="#" className="text-2xl">
           <FaMusic />
         </a>
-        <div className=" bg-black   pl-3 rounded-2x relative ">
+        <div className=" pl-3 rounded-2x relative ">
           <input
             type="text"
             name="searchbar"

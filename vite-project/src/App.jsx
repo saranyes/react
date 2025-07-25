@@ -1,11 +1,12 @@
-import Navbar from "./Components/Navbar"
-import Home from "./Pages/Home"
+import Navbar from "./Components/Navbar";
+import Home from "./Pages/Home";
 
-function App (){
+function App() {
   return (
-    <Home/>
-    
-  )
+    <div className="bg-black">
+      <Home />
+    </div>
+  );
 }
 
-export default App
+export default App;
